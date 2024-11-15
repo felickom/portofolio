@@ -1,0 +1,18 @@
+{
+    "education":[
+        {
+            "title": "Sep 2016 - Nov 2020",
+            "cardTitle": "S1, Computer Science",
+            "cardSubtitle":"Binus University, Jakarta",
+            "cardDetailedText": "GPA - 3.18",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Jun 2013 - May 2016",
+            "cardTitle": "High School",
+            "cardSubtitle":"SMA Mondial, Batam"
+        }
+    ]
+}

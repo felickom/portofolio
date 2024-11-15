@@ -3,7 +3,7 @@
   "name": "Felic Komarno - Portfolio",
   "icons": [
     {
-      "src": "/portofolio/images/logo.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "425x225"
     }

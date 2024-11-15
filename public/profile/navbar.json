@@ -1,33 +1,33 @@
 {
     "logo" : {
-        "source": "/portofolio/images/logo.png",
+        "source": "images/logo.png",
         "height" : 45,
         "width" : 50
     },
     "sections": [
         {
             "title": "Home",
-            "href": "/portofolio/"
+            "href": "/"
         },
         {
             "title": "About",
-            "href": "/portofolio/about"
+            "href": "/about"
         },
         {
             "title": "Skills",
-            "href": "/portofolio/skills"
+            "href": "/skills"
         },
         {
             "title": "Education",
-            "href": "/portofolio/education"
+            "href": "/education"
         },
         {
             "title": "Experience",
-            "href": "/portofolio/experience"
+            "href": "/experience"
         },
         {
             "title": "Projects",
-            "href": "/portofolio/projects"
+            "href": "/projects"
         },
         {
             "title": "Resume",

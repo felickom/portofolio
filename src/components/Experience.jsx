@@ -21,9 +21,11 @@ const styles = {
   },
   subtitleStyle: {
     display: 'inline-block',
+    fontSize: '1.1rem',
   },
   inlineChild: {
     display: 'inline-block',
+    fontSize: '1.1rem',
   },
   itemStyle: {
     marginBottom: 10,
@@ -73,7 +75,7 @@ function Experience(props) {
                         </h4>
                         {item.workType && (
                         <h5 style={styles.inlineChild}>
-                    &nbsp;·
+                          &nbsp;·
                           {' '}
                           {item.workType}
                         </h5>

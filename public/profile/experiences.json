@@ -1,33 +1,36 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Software Developer",
+            "subtitle": " PT. INDOMARCO PRISMATAMA",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Worked on an application using ASP.NET Core or ASP.NET MVC as the framework, C# as the programming language, MySQL as the database, and IIS as the server.",
+                "Worked on reporting features using Crystal Reports and Excel Worksheets.",
+                "Developed the front-end application using Kendo UI and DataTables to integrate with the ASP.NET framework.",
+                "Created API endpoints secured with Bearer tokens, utilized by other departments."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "10/2022 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "PHP Developer",
+            "subtitle": "Pt. BISNIS TEKNOLOGI MANAJEMEN",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Worked on developing applications using the PHP-based Destoon Framework. Optimized data workflows, managed the database, and customized features according to user requirements.",
+                "Worked on the front-end using the Bootstrap framework to customize the design model across various platforms (Android and web)."
+            ],
+            "dateText": "05/2021 – 08/2022"
+        },
+        {
+            "title": "Developer",
+            "subtitle": "Pt. VISIONET DATA INTERNASIONAL",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Developed a C# program that converts XML format into a more flexible string format for further processing.",
+                "Developed a Java program that reads data processed from the EDC machine, validates it, and converts it into a proper string format that can be imported into a PostgreSQL database."
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "03/2019 – 02/2020"
         }
     ]
 }

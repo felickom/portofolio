@@ -13,18 +13,16 @@ const styles = {
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
-    fontSize: '1.2em',
+    fontSize: '1.1rem',
     fontWeight: 500,
+    wordWrap: 'break-word',
+    overflowWrap: 'break-word',
   },
   introImageContainer: {
     margin: 10,
     justifyContent: 'center',
     alignItems: 'center',
     display: 'flex',
-  },
-  image: {
-    maxWidth: '100%', // Pastikan gambar tidak melebihi lebar container
-    height: 'auto',
   },
 };
 
@@ -56,10 +54,10 @@ function About(props) {
             ? (
               <Fade>
                 <Row>
-                  <Col style={styles.introTextContainer}>
+                  <Col className="introTextContainer" style={styles.introTextContainer}>
                     {parseIntro(data.about)}
                   </Col>
-                  <Col style={styles.introImageContainer}>
+                  <Col className="introImageContainer" style={styles.introImageContainer}>
                     <img src={data?.imageSource} alt="profile" />
                   </Col>
                 </Row>
@@ -68,6 +66,20 @@ function About(props) {
             : <FallbackSpinner />}
         </Container>
       </div>
+      <style>
+        {`
+          @media (max-width: 400px) {
+            .introTextContainer {
+              font-size: 1.1em !important;
+              padding: 0 33px !important;
+            }
+            .introImageContainer img {
+              width: 350px;
+              height: auto;
+            }
+          }
+        `}
+      </style>
     </>
   );
 }

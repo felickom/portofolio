@@ -22,6 +22,10 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
   },
+  image: {
+    maxWidth: '100%', // Pastikan gambar tidak melebihi lebar container
+    height: 'auto',
+  },
 };
 
 function About(props) {

@@ -19,7 +19,7 @@
         {
             "image" : "images/projects/permintaan-jasa.png",
             "title": "Permintaan Jasa Website",
-            "bodyText": "- Permintaan Jasa is a web app that designed to manage service requests, from budget planning to final reporting.\n - Includes Master Data, Transaction, and Reporting menus\n - A personal project from my work.",
+            "bodyText": "- Permintaan Jasa is a web app that designed to manage service requests, from budget planning to final reporting.\n - Includes Master Data, Transaction, and Reporting menus\n - A personal project.",
             "links": [
                 {
                     "text": "Images",
@@ -33,6 +33,22 @@
                 "MYSQL",
                 "JavaScript",
                 "Entity Framework Core"
+            ]
+        },
+        {
+            "image" : "images/projects/linkedin.png",
+            "title": "Linkedin Content Presence",
+            "bodyText": "- Making Carousel Content for linkedin post\n- From 780 to 16.000 Content impressions in 90 days. \n - Getting 1000 - 5000 views per post",
+            "links": [
+                {
+                    "text": "Images",
+                    "href": "https://drive.google.com/drive/folders/1rn2ymsqJEtjd0SI_4HGDVFyBZQ4yKpTi?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Canva",
+                "Linkedin",
+                "Carousel"
             ]
         }
     ]

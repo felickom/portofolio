@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
+import {
+  Container,
+  Col,
+  Row,
+  Button,
+} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import aboutme from '../constants/aboutme';
 
 const styles = {
   introTextContainer: {
@@ -56,6 +62,22 @@ function About(props) {
                 <Row>
                   <Col className="introTextContainer" style={styles.introTextContainer}>
                     {parseIntro(data.about)}
+                    <div style={styles.ctaContainer}>
+                      <h3>Let&apos;s Build Something Great Together!</h3>
+                      <p>
+                        Ready to transform your ideas into impactful digital solutions ?
+                        <br />
+                        Explore my portfolio to see my work in action.
+                      </p>
+                      <div>
+                        <Button variant="primary" href={aboutme.projects} style={styles.ctaButton}>
+                          View My Work
+                        </Button>
+                        <Button variant="outline-secondary" href={aboutme.home} style={styles.ctaButton}>
+                          Let&apos;s Connect
+                        </Button>
+                      </div>
+                    </div>
                   </Col>
                   <Col className="introImageContainer" style={styles.introImageContainer}>
                     <img src={data?.imageSource} alt="profile" />

@@ -11,6 +11,7 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import aboutme from '../constants/aboutme';
 
 const styles = {
   introTextContainer: {
@@ -28,6 +29,13 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     display: 'flex',
+  },
+  ctaContainer: {
+    marginTop: '30px',
+    textAlign: 'center',
+  },
+  ctaButton: {
+    margin: '10px',
   },
 };
 
@@ -69,10 +77,10 @@ function About(props) {
                         Explore my portfolio to see my work in action.
                       </p>
                       <div>
-                        <Button variant="primary" href={endpoints.projects} style={styles.ctaButton}>
+                        <Button variant="primary" href={aboutme.projects} style={styles.ctaButton}>
                           View My Work
                         </Button>
-                        <Button variant="outline-secondary" href={endpoints.home} style={styles.ctaButton}>
+                        <Button variant="secondary" href={aboutme.home} style={styles.ctaButton}>
                           Let&apos;s Connect
                         </Button>
                       </div>

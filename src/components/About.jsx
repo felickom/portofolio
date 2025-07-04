@@ -11,7 +11,6 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
-import aboutme from '../constants/aboutme';
 
 const styles = {
   introTextContainer: {

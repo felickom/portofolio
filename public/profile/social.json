@@ -1,6 +1,10 @@
 {
     "social": [
         {
+            "network" : "instagram",
+            "href": "https://www.instagram.com/felickom.va/"
+        },
+        {
             "network" : "linkedin",
             "href": "https://www.linkedin.com/in/felickom/"
         },

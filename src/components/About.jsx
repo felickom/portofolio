@@ -70,10 +70,10 @@ function About(props) {
                         Explore my portfolio to see my work in action.
                       </p>
                       <div>
-                        <Button variant="primary" href={aboutme.projects} style={styles.ctaButton}>
+                        <Button variant="primary" href={endpoints.projects} style={styles.ctaButton}>
                           View My Work
                         </Button>
-                        <Button variant="outline-secondary" href={aboutme.home} style={styles.ctaButton}>
+                        <Button variant="outline-secondary" href={endpoints.home} style={styles.ctaButton}>
                           Let&apos;s Connect
                         </Button>
                       </div>
